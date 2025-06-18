@@ -1,0 +1,32 @@
+[general]
+import = [
+    "gruvbox_dark.toml"
+]
+
+[font]
+size = 11
+#normal = { family = "JetBrainsMonoNerdFontMono", style = "SemiBold" }
+#normal = { family = "BlexMonoNerdFontMono", style = "Medium" } 
+normal = { family = "FiraCodeNerdFont", style = "SemiBold"  } 
+offset.y = 1
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 1.0
+
+####################
+###    CURSOR    ###
+####################
+[cursor]
+style = { shape = "Beam" }
+
+[env]
+TERM = "xterm-256color"
+
+[mouse]
+hide_when_typing = true
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Key1"
+mods = "Control"

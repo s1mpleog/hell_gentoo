@@ -1,0 +1,24 @@
+# GTK (for VSCode, Gedit, etc.)
+export GTK_THEME=Eternal-Arctic
+export XCURSOR_THEME=Bibata-Modern-Ice
+export XCURSOR_SIZE=24
+
+# QT (for Qt apps)
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_STYLE_OVERRIDE=kvantum
+
+# Electron (VSCode, Brave)
+export ELECTRON_ENABLE_GPU_ACCELERATION=1
+export ELECTRON_OZONE_PLATFORM_HINT=x11
+
+# For consistent fonts
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+export XDG_CURRENT_DESKTOP=dwm
+export XDG_SESSION_DESKTOP=dwm
+export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=dwm
+
+# Wayland-specific apps fallback
+export MOZ_ENABLE_WAYLAND=0
+
